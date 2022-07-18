@@ -1,0 +1,25 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "is an IO::Path under version control?",
+  "license": "Artistic-2.0",
+  "name": "under-version-control",
+  "perl": "6.d",
+  "provides": {
+    "under-version-control": "lib/under-version-control.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/under-version-control.git",
+  "tags": [ "IO", "VCS", "VERSION", "CONTROL"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}

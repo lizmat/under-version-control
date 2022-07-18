@@ -1,0 +1,14 @@
+use Test;
+use under-version-control;
+
+plan 2;
+
+my $tmpdir := $*TMPDIR;
+my $git    := $tmpdir.add(".git");
+LEAVE $git.rmdir if $git.d;
+
+is-deeply $tmpdir.&under-version-control, False, 'before';
+$git.mkdir;
+is-deeply $tmpdir.&under-version-control, True, 'after';
+
+# vim: expandtab shiftwidth=4
