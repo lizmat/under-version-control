@@ -22,7 +22,7 @@ use under::version::control;
 say "current directory is under version control"
   if ".".IO.&under-version-control;
 
-say "file "foo.bar" is under version control"
+say "file 'foo.bar' is under version control"
   if under-version-control "foo.bar".IO;
 
 =end code
