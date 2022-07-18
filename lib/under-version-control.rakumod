@@ -11,13 +11,13 @@ my sub under-version-control(IO::Path:D $io is copy --> Bool:D) is export {
 
 =head1 NAME
 
-under::version::control - is an IO::Path under version control?
+under-version-control - is an IO::Path under version control?
 
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
 
-use under::version::control;
+use under-version-control;
 
 say "current directory is under version control"
   if ".".IO.&under-version-control;

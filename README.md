@@ -3,13 +3,13 @@
 NAME
 ====
 
-under::version::control - is an IO::Path under version control?
+under-version-control - is an IO::Path under version control?
 
 SYNOPSIS
 ========
 
 ```raku
-use under::version::control;
+use under-version-control;
 
 say "current directory is under version control"
   if ".".IO.&under-version-control;

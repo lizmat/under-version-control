@@ -2,5 +2,8 @@ Revision history for under-version-control
 
 {{$NEXT}}
 
+0.0.2  2022-07-18T20:09:10+02:00
+    - Fix pod issues on how to use this module
+
 0.0.1  2022-07-18T19:24:47+02:00
     - Initial version
