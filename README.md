@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/under-version-control/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/under-version-control/actions)
+[![Actions Status](https://github.com/lizmat/under-version-control/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/under-version-control/actions) [![Actions Status](https://github.com/lizmat/under-version-control/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/under-version-control/actions) [![Actions Status](https://github.com/lizmat/under-version-control/actions/workflows/windows.yml/badge.svg)](https://github.com/lizmat/under-version-control/actions)
 
 NAME
 ====
@@ -27,6 +27,11 @@ This is currently defined as it having a sibling ".git" directory, or any of its
 
 Intended to be used by CLI scripts before they do massive changes on a file system: being under version control provides a bigger chance of reversibility if something went wrong.
 
+SEE ALSO
+========
+
+For more fine-grained control on whether a path is under version control, you can also use the [`Git::Files`](https://raku.land/zef:lizmat/Git::Files) distribution for that, or the git related functions in [`path-utils`](https://raku.land/zef:lizmat/path-utils).
+
 AUTHOR
 ======
 
@@ -39,7 +44,7 @@ If you like this module, or what I’m doing more generally, committing to a [sm
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2022 Elizabeth Mattijsen
+Copyright 2022, 2025 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
