@@ -3,27 +3,25 @@
   "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends": [
-  ],
   "depends": [
   ],
   "description": "is an IO::Path under version control?",
   "license": "Artistic-2.0",
   "name": "under-version-control",
-  "perl": "6.d",
   "provides": {
     "under-version-control": "lib/under-version-control.rakumod"
   },
-  "resources": [
-  ],
-  "source-url": "https://github.com/lizmat/under-version-control.git",
+  "raku": "6.d",
+  "support": {
+    "bugtracker": "https://codeberg.org/lizmat/under-version-control/issues",
+    "email": "liz@raku.rocks",
+    "source": "https://codeberg.org/lizmat/under-version-control.git"
+  },
   "tags": [
     "IO",
     "VCS",
     "VERSION",
     "CONTROL"
-  ],
-  "test-depends": [
   ],
   "version": "0.0.3"
 }

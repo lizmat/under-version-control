@@ -7,7 +7,6 @@ under-version-control - is an IO::Path under version control?
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
-
 use under-version-control;
 
 say "current directory is under version control"
@@ -15,7 +14,6 @@ say "current directory is under version control"
 
 say "file 'foo.bar' is under version control"
   if under-version-control "foo.bar".IO;
-
 =end code
 
 =head1 DESCRIPTION
@@ -41,7 +39,7 @@ L<C<path-utils>|https://raku.land/zef:lizmat/path-utils>.
 
 Elizabeth Mattijsen <liz@raku.rocks>
 
-Source can be located at: https://github.com/lizmat/under-version-control .
+Source can be located at: https://codeberg.org/lizmat/under-version-control .
 Comments and Pull Requests are welcome.
 
 If you like this module, or what I’m doing more generally, committing to a
@@ -50,7 +48,7 @@ deal to me!
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2022, 2025 Elizabeth Mattijsen
+Copyright 2022, 2025, 2026 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
